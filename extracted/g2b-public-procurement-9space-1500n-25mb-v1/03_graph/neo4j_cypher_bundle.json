@@ -1,0 +1,6 @@
+{
+  "mode": "passive",
+  "import_cypher": "// Use JSONL batch import if Neo4j is already running; do not start services automatically.",
+  "verify_cypher": "MATCH (n {pack_id: \"g2b-public-procurement-9space-1500n-25mb-v1\"}) RETURN count(n);",
+  "sample_queries": []
+}
