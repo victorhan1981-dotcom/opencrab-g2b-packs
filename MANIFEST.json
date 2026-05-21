@@ -1,0 +1,12 @@
+{
+  "repo_layout": "clean-json-500row-shards-v1",
+  "created_for": "OpenCrab GitHub ingest experiment",
+  "row_count_total": 10001,
+  "shard_size_rows": 500,
+  "shard_count": 21,
+  "primary_ingest_path": "evidence_json_500",
+  "backup_before_cleanup": {
+    "branch": "archive/pre-clean-20260522-020044",
+    "tag": "pre-clean-20260522-020044"
+  }
+}

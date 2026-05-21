@@ -1,0 +1,22 @@
+{
+  "format": "g2b_evidence_json_500row_shard_v1",
+  "dataset": "g2b-public-procurement-openapi-public-evidence",
+  "shard_index": 21,
+  "item_start_1based": 10001,
+  "item_end_1based": 10001,
+  "items_in_shard": 1,
+  "total_items_all_shards": 10001,
+  "probe_markers": [],
+  "items": [
+    {
+      "source_line": 10001,
+      "chunk_id": "chunk:g2b:9space:ontology-policy",
+      "evidence_id": null,
+      "document_id": "doc:g2b:9space:ontology-policy",
+      "service": null,
+      "operation": null,
+      "source_file": null,
+      "text": "This pack models G2B public procurement evidence through nine OpenCrab spaces: subject, resource, evidence, concept, claim, community, result, lever, and policy. Official public OpenAPI response fields are retained as selected evidence chunks while secrets and credentials are excluded. The graph is intentionally compact at about one thousand nodes so upload and ingestion stay manageable."
+    }
+  ]
+}
