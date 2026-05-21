@@ -1,1 +1,2 @@
 d8d517a672983a6914a50db0d812e81a87d9ac095d42cb0fd3227e6f88750e4e  artifacts/g2b-public-procurement-9space-25mb-v1.zip
+0019a9b75ebd0d72d7c57debf48e94d7285e469455b04ae2a76850de6b62cd72  artifacts/g2b-public-procurement-9space-1500n-25mb-v1.zip

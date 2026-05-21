@@ -20,3 +20,15 @@ This pack is generated from official public OpenAPI response fields for private 
 ## Validation
 
 See `validation_report.md` and `build_summary.json`.
+
+
+## 1500-node GitHub ingest artifact
+
+- `artifacts/g2b-public-procurement-9space-1500n-25mb-v1.zip`
+- Cloud Pack format: `opencrab-cloud-pack-v1`
+- Nodes: 1500
+- Edges: 3408
+- Chunks/evidence: 10001
+- ZIP size: about 25.5 MB
+- Max ZIP entry: `cloud/chunks.jsonl`, about 13.9 MB
+- Intended path: GitHub Release asset / URL ingest, since browser upload worked less reliably than server-side fetch.

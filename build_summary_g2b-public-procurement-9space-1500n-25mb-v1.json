@@ -1,0 +1,34 @@
+{
+  "pack_id": "g2b-public-procurement-9space-1500n-25mb-v1",
+  "zip_path": "/Users/han.nakta/eva/4.resource/opencrab-ontology/g2b-dataset-staging/g2b-public-procurement-9space-1500n-25mb-v1.zip",
+  "counts": {
+    "nodes": 1500,
+    "edges": 3408,
+    "documents": 659,
+    "chunks": 10001,
+    "evidence": 10001
+  },
+  "space_counts": {
+    "concept": 357,
+    "resource": 380,
+    "claim": 84,
+    "evidence": 629,
+    "policy": 9,
+    "subject": 8,
+    "community": 9,
+    "result": 12,
+    "lever": 12
+  },
+  "description": "G2B Public Procurement 9-Space 1500N 25MB Ontology Pack v1은 나라장터/G2B 공개 OpenAPI 캐시를 OpenCrab의 9개 space(주체, 리소스, 증거, 개념, 주장, 커뮤니티, 결과, 레버, 정책)로 재구성한 업로드용 Cloud Pack입니다. 공식 공공데이터 응답 필드는 선별된 문장 증거 chunk로 보존하고, API key/token/password/cookie/session 같은 비밀정보는 포함하지 않는 정책을 따릅니다. 약 1,500개 노드의 확장 compact graph와 약 25MB cloud chunk payload를 결합한 GitHub URL ingest용 버전이며, Web UI 직접 업로드보다 서버-side fetch 검증과 이후 서비스별 shard pack 확장에 적합합니다.",
+  "zip_mb": 25.51,
+  "zip_entries": 25,
+  "max_entry_mb": 13.882,
+  "max_entry": "cloud/chunks.jsonl",
+  "zip_compression": "stored",
+  "zip_testzip": null,
+  "validation": {
+    "validate_pack_zip": "passed",
+    "zip_testzip": null,
+    "secret_pattern_scan_matches": 0
+  }
+}
