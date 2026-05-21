@@ -1,13 +1,15 @@
-# OpenCrab G2B flat-root JSON shard ingest test
+# G2B OpenCrab GitHub ingest 50-row JSON shard test
 
-This repository is currently flattened for OpenCrab GitHub ingest testing.
+Clean flat-root experiment for OpenCrab GitHub ingest.
 
-OpenCrab GitHub ingest input:
+- Format: JSON object files at repository root
+- Shard size: 50 evidence rows per file, except the final small shard
+- Total rows: 10001
+- Total shard files: 201
+- Exact probe markers are intentionally stored only inside shard JSON files, not in this README.
 
-1. repo URL: `https://github.com/victorhan1981-dotcom/opencrab-g2b-packs`
-2. branch: `main`
-3. path: `.`
+OpenCrab input:
 
-The 21 JSON shard files now live at repository root. This tests whether OpenCrab GitHub ingest treats root-level JSON files differently from files inside a folder.
-
-Credential-bearing values are excluded.
+1. repo URL: https://github.com/victorhan1981-dotcom/opencrab-g2b-packs
+2. branch: main
+3. path: .
