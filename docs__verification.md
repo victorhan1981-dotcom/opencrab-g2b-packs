@@ -13,3 +13,6 @@ Recommended semantic searches:
 - `getPrdctClsfcNoUnit6Info 211017 수확용농업기계 Agricultural machinery for harvesting`
 
 There are also unique probe marker strings embedded only inside selected shard JSON files; use the runtime/test notes rather than this repo document when checking them, so marker searches do not match documentation.
+
+
+Flat-root follow-up: shard JSON files have been moved to repository root. Use path `.` and verify that source paths are root-level shard JSON files, not only README/MANIFEST/index files.

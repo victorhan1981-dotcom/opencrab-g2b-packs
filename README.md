@@ -1,16 +1,13 @@
-# OpenCrab G2B GitHub ingest experiments
+# OpenCrab G2B flat-root JSON shard ingest test
 
-Clean repository layout for testing OpenCrab GitHub ingest with 500-row JSON evidence shards.
+This repository is currently flattened for OpenCrab GitHub ingest testing.
 
-Use the three OpenCrab GitHub fields as follows:
+OpenCrab GitHub ingest input:
 
-1. repo URL
-https://github.com/victorhan1981-dotcom/opencrab-g2b-packs
+1. repo URL: `https://github.com/victorhan1981-dotcom/opencrab-g2b-packs`
+2. branch: `main`
+3. path: `.`
 
-2. branch
-main
+The 21 JSON shard files now live at repository root. This tests whether OpenCrab GitHub ingest treats root-level JSON files differently from files inside a folder.
 
-3. path
-evidence_json_500
-
-The previous experimental layouts were archived on a backup branch/tag before this cleanup.
+Credential-bearing values are excluded.

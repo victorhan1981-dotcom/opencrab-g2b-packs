@@ -1,12 +1,14 @@
 {
-  "repo_layout": "clean-json-500row-shards-v1",
-  "created_for": "OpenCrab GitHub ingest experiment",
+  "format": "g2b_flat_root_json_500row_test_manifest_v1",
+  "opencrab_github_input": {
+    "repo_url": "https://github.com/victorhan1981-dotcom/opencrab-g2b-packs",
+    "branch": "main",
+    "path": "."
+  },
+  "layout": "flat-root",
   "row_count_total": 10001,
   "shard_size_rows": 500,
   "shard_count": 21,
-  "primary_ingest_path": "evidence_json_500",
-  "backup_before_cleanup": {
-    "branch": "archive/pre-clean-20260522-020044",
-    "tag": "pre-clean-20260522-020044"
-  }
+  "shard_file_pattern": "g2b_evidence_500row_shard_NNN.json",
+  "notes": "Folder contents were moved to repository root after folder-level 500-row JSON shard ingest did not expose row-level evidence."
 }
