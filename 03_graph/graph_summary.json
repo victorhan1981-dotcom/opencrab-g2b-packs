@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "nodes": 1500,
+    "edges": 3408,
+    "documents": 659,
+    "chunks": 10001,
+    "evidence": 10001
+  },
+  "space_counts": {
+    "concept": 357,
+    "resource": 380,
+    "claim": 84,
+    "evidence": 629,
+    "policy": 9,
+    "subject": 8,
+    "community": 9,
+    "result": 12,
+    "lever": 12
+  }
+}
