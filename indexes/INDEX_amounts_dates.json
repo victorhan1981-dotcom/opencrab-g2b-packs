@@ -1,0 +1,2431 @@
+{
+  "generated_at": "2026-05-22",
+  "source": "g2b_evidence_50row_shard_001..201.json",
+  "row_count": 10001,
+  "shard_count": 201,
+  "purpose": "OpenCrab search/discovery index; canonical evidence rows remain in g2b_evidence_50row_shard_*.json",
+  "index_type": "amounts_dates",
+  "amount_fields": [
+    "uprc",
+    "sucsfbidAmt",
+    "presmptPrce",
+    "asignBdgtAmt",
+    "bdgtAmt",
+    "cntrctAmt",
+    "thtmCcgpAmt",
+    "bssAmt"
+  ],
+  "date_fields": [
+    "ntceNticeDt",
+    "bidPrceCalclAOpenDt",
+    "opengDt",
+    "cntrctCnclsDate",
+    "dlvrTmlmtDt",
+    "rgstDt"
+  ],
+  "top_amount_rows": [
+    {
+      "amount": 5454545454545,
+      "source_line": 2856,
+      "shard_file": "g2b_evidence_50row_shard_058.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "5454545454545"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "레미콘",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 2999090909090,
+      "source_line": 2857,
+      "shard_file": "g2b_evidence_50row_shard_058.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "2999090909090"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "아스팔트콘크리트",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 84930624170,
+      "source_line": 2581,
+      "shard_file": "g2b_evidence_50row_shard_052.json",
+      "bidNtceNo": "R26BK01429900",
+      "field_values": {
+        "asignBdgtAmt": "84930624170"
+      },
+      "dminsttNm": "보건복지부",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 63965565000,
+      "source_line": 8019,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "63965565000"
+      },
+      "dminsttNm": "금광동 4022번지 일원 가로주택정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 34824577483,
+      "source_line": 8936,
+      "shard_file": "g2b_evidence_50row_shard_179.json",
+      "bidNtceNo": "R25BK01213271",
+      "field_values": {
+        "sucsfbidAmt": "34824577483"
+      },
+      "dminsttNm": "충청남도 건설본부",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 26977345000,
+      "source_line": 8032,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "26977345000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 26376000000,
+      "source_line": 6504,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "26376000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 24443453000,
+      "source_line": 909,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "24443453000"
+      },
+      "dminsttNm": "서울특별시교육청 서울특별시동작관악교육지원청",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 22489090909,
+      "source_line": 2859,
+      "shard_file": "g2b_evidence_50row_shard_058.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "22489090909"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "순환상온아스팔트콘크리트",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 21123929409,
+      "source_line": 2393,
+      "shard_file": "g2b_evidence_50row_shard_048.json",
+      "bidNtceNo": "R25BK00935361",
+      "field_values": {
+        "asignBdgtAmt": "21123929409"
+      },
+      "dminsttNm": "인천국제공항공사",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 20600851041,
+      "source_line": 2765,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00606001",
+      "field_values": {
+        "uprc": "20600851041"
+      },
+      "dminsttNm": "건강보험심사평가원",
+      "product": "정보인프라구축서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 20600851041,
+      "source_line": 2766,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00606001",
+      "field_values": {
+        "uprc": "20600851041"
+      },
+      "dminsttNm": "건강보험심사평가원",
+      "product": "정보인프라구축서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 19987884360,
+      "source_line": 5541,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "19987884360"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 19450061000,
+      "source_line": 947,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "19450061000"
+      },
+      "dminsttNm": "경상북도 환동해지역본부",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 16000000000,
+      "source_line": 2702,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "20200804989",
+      "field_values": {
+        "uprc": "16000000000"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "자동차렌트서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 12985000000,
+      "source_line": 8189,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "12985000000"
+      },
+      "dminsttNm": "산곡재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 8850656340,
+      "source_line": 3199,
+      "shard_file": "g2b_evidence_50row_shard_064.json",
+      "bidNtceNo": "R26BK01433526",
+      "field_values": {
+        "asignBdgtAmt": "8850656340"
+      },
+      "dminsttNm": "국토교통부 부산지방항공청",
+      "product": "레미콘",
+      "operation": "getBidPblancListInfoThngPPSSrch"
+    },
+    {
+      "amount": 8199000000,
+      "source_line": 6526,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "8199000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 7380392000,
+      "source_line": 979,
+      "shard_file": "g2b_evidence_50row_shard_020.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "7380392000"
+      },
+      "dminsttNm": "충청남도 천안시",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 7349275000,
+      "source_line": 2817,
+      "shard_file": "g2b_evidence_50row_shard_057.json",
+      "bidNtceNo": "R25BK00610191",
+      "field_values": {
+        "uprc": "7349275000"
+      },
+      "dminsttNm": "한국지역정보개발원",
+      "product": "정보시스템개발서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 6962152000,
+      "source_line": 948,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "6962152000"
+      },
+      "dminsttNm": "국립공원공단 중부지역본부",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 6600000000,
+      "source_line": 7037,
+      "shard_file": "g2b_evidence_50row_shard_141.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "6600000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoServc"
+    },
+    {
+      "amount": 5861890000,
+      "source_line": 1042,
+      "shard_file": "g2b_evidence_50row_shard_021.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "5861890000"
+      },
+      "dminsttNm": "경상북도 경산시",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 5625000000,
+      "source_line": 2722,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00595458",
+      "field_values": {
+        "uprc": "5625000000"
+      },
+      "dminsttNm": "보건복지부 국립정신건강센터",
+      "product": "보건복지연구조사서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 5625000000,
+      "source_line": 2735,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00600046",
+      "field_values": {
+        "uprc": "5625000000"
+      },
+      "dminsttNm": "보건복지부 국립정신건강센터",
+      "product": "보건복지연구조사서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 5625000000,
+      "source_line": 2744,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00604272",
+      "field_values": {
+        "uprc": "5625000000"
+      },
+      "dminsttNm": "보건복지부 국립정신건강센터",
+      "product": "보건복지연구조사서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 4290000000,
+      "source_line": 8891,
+      "shard_file": "g2b_evidence_50row_shard_178.json",
+      "bidNtceNo": "R26BK01410618",
+      "field_values": {
+        "sucsfbidAmt": "4290000000"
+      },
+      "dminsttNm": "함평군농협쌀조합공동사업법인",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 4116000000,
+      "source_line": 6548,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "4116000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 4116000000,
+      "source_line": 6568,
+      "shard_file": "g2b_evidence_50row_shard_132.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "4116000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 3960000000,
+      "source_line": 9130,
+      "shard_file": "g2b_evidence_50row_shard_183.json",
+      "bidNtceNo": "R26BK01401560",
+      "field_values": {
+        "sucsfbidAmt": "3960000000"
+      },
+      "dminsttNm": "국토교통부",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 3755000000,
+      "source_line": 9221,
+      "shard_file": "g2b_evidence_50row_shard_185.json",
+      "bidNtceNo": "R26BK01382471",
+      "field_values": {
+        "sucsfbidAmt": "3755000000"
+      },
+      "dminsttNm": "충청남도 건설본부",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 3740000000,
+      "source_line": 3416,
+      "shard_file": "g2b_evidence_50row_shard_069.json",
+      "bidNtceNo": "R26BK01334181",
+      "field_values": {
+        "uprc": "3740000000"
+      },
+      "dminsttNm": "제이엔케이글로벌(주)",
+      "product": "탄소포집기",
+      "operation": "getBidPblancListInfoThngPurchsObjPrdct"
+    },
+    {
+      "amount": 3652000000,
+      "source_line": 2998,
+      "shard_file": "g2b_evidence_50row_shard_060.json",
+      "bidNtceNo": "R26BK01363987",
+      "field_values": {
+        "asignBdgtAmt": "3652000000"
+      },
+      "dminsttNm": "(재)한국조선해양기자재연구원",
+      "product": "동력계",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 3434537246,
+      "source_line": 693,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "3434537246"
+      },
+      "dminsttNm": "충청남도교육청",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 3337487610,
+      "source_line": 9119,
+      "shard_file": "g2b_evidence_50row_shard_183.json",
+      "bidNtceNo": "R26BK01328119",
+      "field_values": {
+        "sucsfbidAmt": "3337487610"
+      },
+      "dminsttNm": "서울특별시 송파구",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 3300000000,
+      "source_line": 8115,
+      "shard_file": "g2b_evidence_50row_shard_163.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "3300000000"
+      },
+      "dminsttNm": "둔촌동 618번지 일원 가로주택정비사업 추진위원회",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 3258200000,
+      "source_line": 4689,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "3258200000"
+      },
+      "dminsttNm": null,
+      "product": "평택기지 부취패키지 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 3159916000,
+      "source_line": 695,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "3159916000"
+      },
+      "dminsttNm": "서울특별시교육청 서울특별시중부교육지원청",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 3159916000,
+      "source_line": 698,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "3159916000"
+      },
+      "dminsttNm": "서울특별시교육청 서울특별시중부교육지원청",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 3029573000,
+      "source_line": 667,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "3029573000"
+      },
+      "dminsttNm": "인천광역시 옹진군",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 2995780000,
+      "source_line": 9389,
+      "shard_file": "g2b_evidence_50row_shard_188.json",
+      "bidNtceNo": "R26BK01302812",
+      "field_values": {
+        "sucsfbidAmt": "2995780000"
+      },
+      "dminsttNm": "고용노동부",
+      "product": null,
+      "operation": "getScsbidListSttusThng"
+    },
+    {
+      "amount": 2803000000,
+      "source_line": 2755,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00605715",
+      "field_values": {
+        "uprc": "2803000000"
+      },
+      "dminsttNm": "중소벤처기업부",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 2731300000,
+      "source_line": 3155,
+      "shard_file": "g2b_evidence_50row_shard_064.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "2731300000"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "승객용엘리베이터",
+      "operation": "getBidPblancListInfoThngPPSSrch"
+    },
+    {
+      "amount": 2728262900,
+      "source_line": 4707,
+      "shard_file": "g2b_evidence_50row_shard_095.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "2728262900"
+      },
+      "dminsttNm": null,
+      "product": "분당관리소 가스히터 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 2670000000,
+      "source_line": 6505,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "2670000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 2662200000,
+      "source_line": 7945,
+      "shard_file": "g2b_evidence_50row_shard_159.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2662200000"
+      },
+      "dminsttNm": "(주)농업회사법인거산",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 2662200000,
+      "source_line": 8165,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2662200000"
+      },
+      "dminsttNm": "(주)농업회사법인거산",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 2629455000,
+      "source_line": 906,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "2629455000"
+      },
+      "dminsttNm": "부산광역시교육청 부산광역시서부교육지원청",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 2613946500,
+      "source_line": 4754,
+      "shard_file": "g2b_evidence_50row_shard_096.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "2613946500"
+      },
+      "dminsttNm": null,
+      "product": "AI플랫폼 GPU 장비 추가 도입",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 2610000000,
+      "source_line": 8124,
+      "shard_file": "g2b_evidence_50row_shard_163.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2610000000"
+      },
+      "dminsttNm": "운암3단지주택재건축정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 2559697177,
+      "source_line": 4764,
+      "shard_file": "g2b_evidence_50row_shard_096.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "2559697177"
+      },
+      "dminsttNm": null,
+      "product": "[동위원소재료] E2 외 87품목",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 2500000000,
+      "source_line": 9403,
+      "shard_file": "g2b_evidence_50row_shard_189.json",
+      "bidNtceNo": "R25BK01135074",
+      "field_values": {
+        "sucsfbidAmt": "2500000000"
+      },
+      "dminsttNm": "중앙선거관리위원회",
+      "product": null,
+      "operation": "getScsbidListSttusThng"
+    },
+    {
+      "amount": 2490000000,
+      "source_line": 8153,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2490000000"
+      },
+      "dminsttNm": "산곡재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 2444318800,
+      "source_line": 2360,
+      "shard_file": "g2b_evidence_50row_shard_048.json",
+      "bidNtceNo": "R25BK00933918",
+      "field_values": {
+        "asignBdgtAmt": "2444318800"
+      },
+      "dminsttNm": "인천공항운영서비스(주)",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 2341469300,
+      "source_line": 9271,
+      "shard_file": "g2b_evidence_50row_shard_186.json",
+      "bidNtceNo": "R25BK01238084",
+      "field_values": {
+        "sucsfbidAmt": "2341469300"
+      },
+      "dminsttNm": "국민건강보험공단",
+      "product": null,
+      "operation": "getScsbidListSttusThng"
+    },
+    {
+      "amount": 2190000000,
+      "source_line": 7923,
+      "shard_file": "g2b_evidence_50row_shard_159.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2190000000"
+      },
+      "dminsttNm": "푸르니보육지원재단",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 2100000000,
+      "source_line": 2782,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00607568",
+      "field_values": {
+        "uprc": "2100000000"
+      },
+      "dminsttNm": "외교부",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 2075000000,
+      "source_line": 7994,
+      "shard_file": "g2b_evidence_50row_shard_160.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2075000000"
+      },
+      "dminsttNm": "더케이소피아그린 주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 2030000000,
+      "source_line": 2261,
+      "shard_file": "g2b_evidence_50row_shard_046.json",
+      "bidNtceNo": "R25BK00934896",
+      "field_values": {
+        "asignBdgtAmt": "2030000000"
+      },
+      "dminsttNm": "한국콘텐츠진흥원",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 2015692800,
+      "source_line": 8044,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "2015692800"
+      },
+      "dminsttNm": "더케이교직원나라(주)",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 2008340000,
+      "source_line": 2729,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00598298",
+      "field_values": {
+        "uprc": "2008340000"
+      },
+      "dminsttNm": "대구교통공사",
+      "product": "정보시스템개발서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 2000000000,
+      "source_line": 2753,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00605710",
+      "field_values": {
+        "uprc": "2000000000"
+      },
+      "dminsttNm": "국가보훈부",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1971740000,
+      "source_line": 2805,
+      "shard_file": "g2b_evidence_50row_shard_057.json",
+      "bidNtceNo": "R25BK00609759",
+      "field_values": {
+        "uprc": "1971740000"
+      },
+      "dminsttNm": "문화체육관광부 국립장애인도서관",
+      "product": "디지털인쇄물제작서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1935068838,
+      "source_line": 2749,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00604998",
+      "field_values": {
+        "uprc": "1935068838"
+      },
+      "dminsttNm": "한국에너지공과대학교",
+      "product": "건물청소서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1893264546,
+      "source_line": 288,
+      "shard_file": "g2b_evidence_50row_shard_006.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "1893264546"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 1848350000,
+      "source_line": 1043,
+      "shard_file": "g2b_evidence_50row_shard_021.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1848350000"
+      },
+      "dminsttNm": "전라남도 신안군",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 1838097270,
+      "source_line": 4702,
+      "shard_file": "g2b_evidence_50row_shard_095.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1838097270"
+      },
+      "dminsttNm": null,
+      "product": "행복도시 연결도로 회덕IC 신설공사 아스콘 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1828040000,
+      "source_line": 1031,
+      "shard_file": "g2b_evidence_50row_shard_021.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1828040000"
+      },
+      "dminsttNm": "강원특별자치도 정선군",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 1770875000,
+      "source_line": 4715,
+      "shard_file": "g2b_evidence_50row_shard_095.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1770875000"
+      },
+      "dminsttNm": null,
+      "product": "인제종합운동장 조성사업 관급자재(조명타워) 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1701000000,
+      "source_line": 4762,
+      "shard_file": "g2b_evidence_50row_shard_096.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1701000000"
+      },
+      "dminsttNm": null,
+      "product": "유도조종장치 제작",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1650000000,
+      "source_line": 2762,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00605889",
+      "field_values": {
+        "uprc": "1650000000"
+      },
+      "dminsttNm": "경찰청 울산광역시경찰청",
+      "product": "컴퓨터네트워크또는인터넷보안서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1641636000,
+      "source_line": 8087,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1641636000"
+      },
+      "dminsttNm": "와이케이 디벨롭먼트 주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1625123000,
+      "source_line": 913,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1625123000"
+      },
+      "dminsttNm": "충청북도 청주시",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 1610682100,
+      "source_line": 5555,
+      "shard_file": "g2b_evidence_50row_shard_112.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1610682100"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 1590592000,
+      "source_line": 3411,
+      "shard_file": "g2b_evidence_50row_shard_069.json",
+      "bidNtceNo": "R26BK01330912",
+      "field_values": {
+        "uprc": "1590592000"
+      },
+      "dminsttNm": "경상북도 문경시",
+      "product": "LED경관조명기구",
+      "operation": "getBidPblancListInfoThngPurchsObjPrdct"
+    },
+    {
+      "amount": 1588000000,
+      "source_line": 2718,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00590956",
+      "field_values": {
+        "uprc": "1588000000"
+      },
+      "dminsttNm": "통일부",
+      "product": "국제행사기획및대행서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1573179000,
+      "source_line": 6532,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1573179000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 1555100000,
+      "source_line": 2551,
+      "shard_file": "g2b_evidence_50row_shard_052.json",
+      "bidNtceNo": "R26BK01433053",
+      "field_values": {
+        "asignBdgtAmt": "1555100000"
+      },
+      "dminsttNm": "한국항공우주연구원",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 1548867520,
+      "source_line": 8926,
+      "shard_file": "g2b_evidence_50row_shard_179.json",
+      "bidNtceNo": "R26BK01352629",
+      "field_values": {
+        "sucsfbidAmt": "1548867520"
+      },
+      "dminsttNm": "한국공항공사 김해공항",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1525000000,
+      "source_line": 2922,
+      "shard_file": "g2b_evidence_50row_shard_059.json",
+      "bidNtceNo": "R26BK01357609",
+      "field_values": {
+        "asignBdgtAmt": "1525000000"
+      },
+      "dminsttNm": "（재）한국섬유기계융합연구원",
+      "product": "균질기",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 1520000000,
+      "source_line": 2775,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00606975",
+      "field_values": {
+        "uprc": "1520000000"
+      },
+      "dminsttNm": "과학기술정보통신부 국립과천과학관",
+      "product": "정보시스템개발서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1518223810,
+      "source_line": 2264,
+      "shard_file": "g2b_evidence_50row_shard_046.json",
+      "bidNtceNo": "R25BK00934180",
+      "field_values": {
+        "presmptPrce": "1370890000",
+        "asignBdgtAmt": "1518223810"
+      },
+      "dminsttNm": "경상남도교육청 경상남도교육청교육정보원",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 1514286000,
+      "source_line": 6924,
+      "shard_file": "g2b_evidence_50row_shard_139.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1514286000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoServc"
+    },
+    {
+      "amount": 1508218102,
+      "source_line": 3158,
+      "shard_file": "g2b_evidence_50row_shard_064.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1508218102"
+      },
+      "dminsttNm": "육군군수사령부",
+      "product": "매트리스",
+      "operation": "getBidPblancListInfoThngPPSSrch"
+    },
+    {
+      "amount": 1500000000,
+      "source_line": 8868,
+      "shard_file": "g2b_evidence_50row_shard_178.json",
+      "bidNtceNo": "R26BK01297217",
+      "field_values": {
+        "sucsfbidAmt": "1500000000"
+      },
+      "dminsttNm": "한국지역난방공사 대구지사",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1490265750,
+      "source_line": 4691,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1490265750"
+      },
+      "dminsttNm": null,
+      "product": "2025년 육군 특전사 기능성방한복 제조",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1439000000,
+      "source_line": 8192,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1439000000"
+      },
+      "dminsttNm": "(사)제철복지회",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1433748300,
+      "source_line": 5472,
+      "shard_file": "g2b_evidence_50row_shard_110.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1433748300"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 1402733000,
+      "source_line": 2708,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00568440",
+      "field_values": {
+        "uprc": "1402733000"
+      },
+      "dminsttNm": "과학기술정보통신부 우정사업본부 서울지방우정청",
+      "product": "기타물품운송서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1391236000,
+      "source_line": 8033,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1391236000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 1380704650,
+      "source_line": 8085,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1380704650"
+      },
+      "dminsttNm": "와이케이 디벨롭먼트 주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1356895000,
+      "source_line": 9259,
+      "shard_file": "g2b_evidence_50row_shard_186.json",
+      "bidNtceNo": "R26BK01326384",
+      "field_values": {
+        "sucsfbidAmt": "1356895000"
+      },
+      "dminsttNm": "해양수산부 동해지방해양수산청",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 1356000000,
+      "source_line": 2706,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00560671",
+      "field_values": {
+        "uprc": "1356000000"
+      },
+      "dminsttNm": "산림청",
+      "product": "정보시스템유지관리서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1343484000,
+      "source_line": 6529,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1343484000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 1343484000,
+      "source_line": 6554,
+      "shard_file": "g2b_evidence_50row_shard_132.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1343484000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 1294292000,
+      "source_line": 2712,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00575342",
+      "field_values": {
+        "uprc": "1294292000"
+      },
+      "dminsttNm": "한국환경산업기술원",
+      "product": "정보시스템유지관리서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1293600000,
+      "source_line": 8090,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1293600000"
+      },
+      "dminsttNm": "주식회사 해피스케치",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1254090400,
+      "source_line": 8836,
+      "shard_file": "g2b_evidence_50row_shard_177.json",
+      "bidNtceNo": "R26BK01346653",
+      "field_values": {
+        "sucsfbidAmt": "1254090400"
+      },
+      "dminsttNm": "서울특별시 강서구",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1245433000,
+      "source_line": 8035,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1245433000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 1230000000,
+      "source_line": 8154,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1230000000"
+      },
+      "dminsttNm": "산곡재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1225300000,
+      "source_line": 8900,
+      "shard_file": "g2b_evidence_50row_shard_178.json",
+      "bidNtceNo": "R26BK01301767",
+      "field_values": {
+        "sucsfbidAmt": "1225300000"
+      },
+      "dminsttNm": "군포도시공사",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1216060000,
+      "source_line": 4695,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1216060000"
+      },
+      "dminsttNm": null,
+      "product": "민자 노선(구리포천) 정보인프라 대수선(설치포함)",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1207983000,
+      "source_line": 4784,
+      "shard_file": "g2b_evidence_50row_shard_096.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1207983000"
+      },
+      "dminsttNm": null,
+      "product": "파라과이 e-vehicle 시범보급용 소형전기트럭(20대) 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1200000000,
+      "source_line": 2728,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00597100",
+      "field_values": {
+        "uprc": "1200000000"
+      },
+      "dminsttNm": "보건복지부 국립정신건강센터",
+      "product": "보건복지연구조사서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1196000000,
+      "source_line": 8070,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1196000000"
+      },
+      "dminsttNm": "씨앤엘영농조합법인",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1192000000,
+      "source_line": 2571,
+      "shard_file": "g2b_evidence_50row_shard_052.json",
+      "bidNtceNo": "R26BK01434062",
+      "field_values": {
+        "asignBdgtAmt": "1192000000"
+      },
+      "dminsttNm": "(사)중소기업기술혁신협회",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 1180000000,
+      "source_line": 9198,
+      "shard_file": "g2b_evidence_50row_shard_184.json",
+      "bidNtceNo": "R26BK01364131",
+      "field_values": {
+        "sucsfbidAmt": "1180000000"
+      },
+      "dminsttNm": "강원대학교",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 1176130000,
+      "source_line": 2781,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00607499",
+      "field_values": {
+        "uprc": "1176130000"
+      },
+      "dminsttNm": "과학기술정보통신부 우정사업본부 충청지방우정청",
+      "product": "기타물품운송서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1175000000,
+      "source_line": 6525,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1175000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 1166200000,
+      "source_line": 7022,
+      "shard_file": "g2b_evidence_50row_shard_141.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1166200000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoServc"
+    },
+    {
+      "amount": 1166200000,
+      "source_line": 7023,
+      "shard_file": "g2b_evidence_50row_shard_141.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1166200000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoServc"
+    },
+    {
+      "amount": 1150000000,
+      "source_line": 8156,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1150000000"
+      },
+      "dminsttNm": "도마변동13구역재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1149500000,
+      "source_line": 9395,
+      "shard_file": "g2b_evidence_50row_shard_188.json",
+      "bidNtceNo": "R25BK01189951",
+      "field_values": {
+        "sucsfbidAmt": "1149500000"
+      },
+      "dminsttNm": "한국지능정보사회진흥원",
+      "product": null,
+      "operation": "getScsbidListSttusThng"
+    },
+    {
+      "amount": 1132659000,
+      "source_line": 5512,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1132659000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 1129646040,
+      "source_line": 4748,
+      "shard_file": "g2b_evidence_50row_shard_095.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "1129646040"
+      },
+      "dminsttNm": null,
+      "product": "화순 도암 도장교 재가설공사(2025년) SEB거더교 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 1124000000,
+      "source_line": 8152,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1124000000"
+      },
+      "dminsttNm": "산곡재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 1099450000,
+      "source_line": 2626,
+      "shard_file": "g2b_evidence_50row_shard_053.json",
+      "bidNtceNo": "R26BK01434071",
+      "field_values": {
+        "asignBdgtAmt": "1099450000"
+      },
+      "dminsttNm": "(사)서울드라마어워즈 조직위원회",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 1093700000,
+      "source_line": 2786,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00607870",
+      "field_values": {
+        "uprc": "1093700000"
+      },
+      "dminsttNm": "한국재정정보원",
+      "product": "컴퓨터네트워크또는인터넷보안서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1090909091,
+      "source_line": 272,
+      "shard_file": "g2b_evidence_50row_shard_006.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "1090909091"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 1081000000,
+      "source_line": 2768,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00606310",
+      "field_values": {
+        "uprc": "1081000000"
+      },
+      "dminsttNm": "한국사회보장정보원",
+      "product": "정보시스템개발서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 1070710000,
+      "source_line": 2644,
+      "shard_file": "g2b_evidence_50row_shard_053.json",
+      "bidNtceNo": "R26BK01433284",
+      "field_values": {
+        "presmptPrce": "965909091",
+        "asignBdgtAmt": "1070710000"
+      },
+      "dminsttNm": "산업통상부 국가기술표준원",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 1051600000,
+      "source_line": 8034,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1051600000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 1050000000,
+      "source_line": 2593,
+      "shard_file": "g2b_evidence_50row_shard_052.json",
+      "bidNtceNo": "R26BK01434073",
+      "field_values": {
+        "asignBdgtAmt": "1050000000"
+      },
+      "dminsttNm": "서일대학",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 1048102000,
+      "source_line": 3231,
+      "shard_file": "g2b_evidence_50row_shard_065.json",
+      "bidNtceNo": "R26BK01429769",
+      "field_values": {
+        "asignBdgtAmt": "1048102000"
+      },
+      "dminsttNm": "중앙선거관리위원회",
+      "product": "컴퓨터서버",
+      "operation": "getBidPblancListInfoThngPPSSrch"
+    },
+    {
+      "amount": 1046000000,
+      "source_line": 7922,
+      "shard_file": "g2b_evidence_50row_shard_159.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "1046000000"
+      },
+      "dminsttNm": "팔달10구역주택재개발정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 1044030000,
+      "source_line": 952,
+      "shard_file": "g2b_evidence_50row_shard_020.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "1044030000"
+      },
+      "dminsttNm": "강원특별자치도 홍천군",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 1039398000,
+      "source_line": 8913,
+      "shard_file": "g2b_evidence_50row_shard_179.json",
+      "bidNtceNo": "R26BK01330782",
+      "field_values": {
+        "sucsfbidAmt": "1039398000"
+      },
+      "dminsttNm": "경남개발공사",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1002653270,
+      "source_line": 8952,
+      "shard_file": "g2b_evidence_50row_shard_180.json",
+      "bidNtceNo": "R26BK01400019",
+      "field_values": {
+        "sucsfbidAmt": "1002653270"
+      },
+      "dminsttNm": "국토교통부 부산지방국토관리청 포항국토관리사무소",
+      "product": null,
+      "operation": "getScsbidListSttusCnstwk"
+    },
+    {
+      "amount": 1000000000,
+      "source_line": 2701,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "20200804989",
+      "field_values": {
+        "uprc": "1000000000"
+      },
+      "dminsttNm": "각 수요기관",
+      "product": "자동차렌트서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 998944460,
+      "source_line": 5544,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "998944460"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 991009560,
+      "source_line": 5427,
+      "shard_file": "g2b_evidence_50row_shard_109.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "991009560"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 983326000,
+      "source_line": 661,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "983326000"
+      },
+      "dminsttNm": "서울특별시 성북구",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 982730000,
+      "source_line": 3413,
+      "shard_file": "g2b_evidence_50row_shard_069.json",
+      "bidNtceNo": "R26BK01332553",
+      "field_values": {
+        "uprc": "982730000"
+      },
+      "dminsttNm": "국방부 국군재정관리단",
+      "product": "전자칠판",
+      "operation": "getBidPblancListInfoThngPurchsObjPrdct"
+    },
+    {
+      "amount": 980300000,
+      "source_line": 2363,
+      "shard_file": "g2b_evidence_50row_shard_048.json",
+      "bidNtceNo": "R25BK00933316",
+      "field_values": {
+        "asignBdgtAmt": "980300000"
+      },
+      "dminsttNm": "국방과학연구소",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 980000000,
+      "source_line": 8057,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "980000000"
+      },
+      "dminsttNm": "목동13단지 재건축 준비위원회",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 980000000,
+      "source_line": 8102,
+      "shard_file": "g2b_evidence_50row_shard_163.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "980000000"
+      },
+      "dminsttNm": "목동13단지 재건축 준비위원회",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 980000000,
+      "source_line": 8158,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "980000000"
+      },
+      "dminsttNm": "상계주공6단지재건축예비추진위원회",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 978901000,
+      "source_line": 6478,
+      "shard_file": "g2b_evidence_50row_shard_130.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "978901000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 978901000,
+      "source_line": 6516,
+      "shard_file": "g2b_evidence_50row_shard_131.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "978901000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 978901000,
+      "source_line": 6556,
+      "shard_file": "g2b_evidence_50row_shard_132.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "978901000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 978901000,
+      "source_line": 6557,
+      "shard_file": "g2b_evidence_50row_shard_132.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "978901000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 978630000,
+      "source_line": 220,
+      "shard_file": "g2b_evidence_50row_shard_005.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "978630000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 975170820,
+      "source_line": 5549,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "975170820"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 967606000,
+      "source_line": 2945,
+      "shard_file": "g2b_evidence_50row_shard_059.json",
+      "bidNtceNo": "R26BK01348186",
+      "field_values": {
+        "asignBdgtAmt": "967606000"
+      },
+      "dminsttNm": "문화체육관광부 한국예술종합학교",
+      "product": "그래픽소프트웨어",
+      "operation": "getBidPblancListInfoThng"
+    },
+    {
+      "amount": 963889110,
+      "source_line": 5557,
+      "shard_file": "g2b_evidence_50row_shard_112.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "963889110"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 943426542,
+      "source_line": 5552,
+      "shard_file": "g2b_evidence_50row_shard_112.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "943426542"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 942914000,
+      "source_line": 607,
+      "shard_file": "g2b_evidence_50row_shard_013.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "942914000"
+      },
+      "dminsttNm": "경상남도 합천군 농업기술센터",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 942914000,
+      "source_line": 608,
+      "shard_file": "g2b_evidence_50row_shard_013.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "942914000"
+      },
+      "dminsttNm": "경상남도 합천군 농업기술센터",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 939800000,
+      "source_line": 9143,
+      "shard_file": "g2b_evidence_50row_shard_183.json",
+      "bidNtceNo": "R26BK01263517",
+      "field_values": {
+        "sucsfbidAmt": "939800000"
+      },
+      "dminsttNm": "국가유산진흥원",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 927288000,
+      "source_line": 4677,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "927288000"
+      },
+      "dminsttNm": null,
+      "product": "천안일봉초등학교 외 34교 가스열펌프(GHP) 배출가스 저감창치 구입설치",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 923379000,
+      "source_line": 654,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "923379000"
+      },
+      "dminsttNm": "서울특별시 성동구",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 923136000,
+      "source_line": 919,
+      "shard_file": "g2b_evidence_50row_shard_019.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "923136000"
+      },
+      "dminsttNm": "전북특별자치도",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwkPPSSrch"
+    },
+    {
+      "amount": 922824450,
+      "source_line": 4698,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "922824450"
+      },
+      "dminsttNm": null,
+      "product": "2025년 궤도차량승무원복 제조(육군)",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 922061350,
+      "source_line": 5517,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "922061350"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 920260000,
+      "source_line": 235,
+      "shard_file": "g2b_evidence_50row_shard_005.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "920260000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 904000000,
+      "source_line": 4810,
+      "shard_file": "g2b_evidence_50row_shard_097.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "904000000"
+      },
+      "dminsttNm": null,
+      "product": "`25년 탑승동 보안회전문 교체사업",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 900570000,
+      "source_line": 4676,
+      "shard_file": "g2b_evidence_50row_shard_094.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "900570000"
+      },
+      "dminsttNm": null,
+      "product": "천안버들유치원 외 47교 가스열펌프(GHP) 배출가스 저감장치 구입설치",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 899590800,
+      "source_line": 5489,
+      "shard_file": "g2b_evidence_50row_shard_110.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "899590800"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 893638860,
+      "source_line": 5511,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "893638860"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 890357150,
+      "source_line": 5488,
+      "shard_file": "g2b_evidence_50row_shard_110.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "890357150"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 880044000,
+      "source_line": 7993,
+      "shard_file": "g2b_evidence_50row_shard_160.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "880044000"
+      },
+      "dminsttNm": "더케이소피아그린 주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 880000000,
+      "source_line": 2776,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00607106",
+      "field_values": {
+        "uprc": "880000000"
+      },
+      "dminsttNm": "산업통상부 국가기술표준원",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 877740000,
+      "source_line": 165,
+      "shard_file": "g2b_evidence_50row_shard_004.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "877740000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 870265000,
+      "source_line": 2326,
+      "shard_file": "g2b_evidence_50row_shard_047.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "870265000"
+      },
+      "dminsttNm": "전라남도 완도군",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 860205000,
+      "source_line": 2815,
+      "shard_file": "g2b_evidence_50row_shard_057.json",
+      "bidNtceNo": "R25BK00610105",
+      "field_values": {
+        "uprc": "860205000"
+      },
+      "dminsttNm": "한국교육개발원",
+      "product": "정보시스템유지관리서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 860000000,
+      "source_line": 8091,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "860000000"
+      },
+      "dminsttNm": "내2구역재건축정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 852970000,
+      "source_line": 216,
+      "shard_file": "g2b_evidence_50row_shard_005.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "presmptPrce": "852970000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getBidPblancListEvaluationIndstrytyMfrcInfo"
+    },
+    {
+      "amount": 852000000,
+      "source_line": 7932,
+      "shard_file": "g2b_evidence_50row_shard_159.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "852000000"
+      },
+      "dminsttNm": "서초신동아아파트 주택재건축정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 840454000,
+      "source_line": 2298,
+      "shard_file": "g2b_evidence_50row_shard_046.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "840454000"
+      },
+      "dminsttNm": "서울특별시 도시기반시설본부",
+      "product": null,
+      "operation": "getBidPblancListInfoServc"
+    },
+    {
+      "amount": 833000000,
+      "source_line": 9233,
+      "shard_file": "g2b_evidence_50row_shard_185.json",
+      "bidNtceNo": "R26BK01331179",
+      "field_values": {
+        "sucsfbidAmt": "833000000"
+      },
+      "dminsttNm": "경상남도 밀양시",
+      "product": null,
+      "operation": "getScsbidListSttusServc"
+    },
+    {
+      "amount": 823000000,
+      "source_line": 6925,
+      "shard_file": "g2b_evidence_50row_shard_139.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "823000000"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrvtBidPblancListInfoServc"
+    },
+    {
+      "amount": 819500000,
+      "source_line": 8030,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "819500000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 819500000,
+      "source_line": 8108,
+      "shard_file": "g2b_evidence_50row_shard_163.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "819500000"
+      },
+      "dminsttNm": "한국사학진흥재단 행복기숙사 유한회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 817148420,
+      "source_line": 5453,
+      "shard_file": "g2b_evidence_50row_shard_110.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "817148420"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 808000000,
+      "source_line": 2721,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00592061",
+      "field_values": {
+        "uprc": "808000000"
+      },
+      "dminsttNm": "경찰청",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 803398010,
+      "source_line": 5505,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "803398010"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 800000000,
+      "source_line": 2750,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00605269",
+      "field_values": {
+        "uprc": "800000000"
+      },
+      "dminsttNm": "행정안전부",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 800000000,
+      "source_line": 2837,
+      "shard_file": "g2b_evidence_50row_shard_057.json",
+      "bidNtceNo": "R25BK00610815",
+      "field_values": {
+        "uprc": "800000000"
+      },
+      "dminsttNm": "문화체육관광부 국립중앙박물관",
+      "product": "전시회기획및대행서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 798000000,
+      "source_line": 8036,
+      "shard_file": "g2b_evidence_50row_shard_161.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "798000000"
+      },
+      "dminsttNm": "진북우성아파트입주자대표회의",
+      "product": null,
+      "operation": "getPrvtScsbidListSttus"
+    },
+    {
+      "amount": 798000000,
+      "source_line": 8169,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "798000000"
+      },
+      "dminsttNm": "진북우성아파트입주자대표회의",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 793127240,
+      "source_line": 5510,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "793127240"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 792000000,
+      "source_line": 8126,
+      "shard_file": "g2b_evidence_50row_shard_163.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "792000000"
+      },
+      "dminsttNm": "공덕현대아파트 소규모재건축정비사업조합",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 788012000,
+      "source_line": 670,
+      "shard_file": "g2b_evidence_50row_shard_014.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "788012000"
+      },
+      "dminsttNm": "광주도시관리공사",
+      "product": null,
+      "operation": "getBidPblancListInfoCnstwk"
+    },
+    {
+      "amount": 785015000,
+      "source_line": 2818,
+      "shard_file": "g2b_evidence_50row_shard_057.json",
+      "bidNtceNo": "R25BK00610198",
+      "field_values": {
+        "uprc": "785015000"
+      },
+      "dminsttNm": "울산광역시교육청",
+      "product": "건설폐기물처리서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 773153695,
+      "source_line": 5436,
+      "shard_file": "g2b_evidence_50row_shard_109.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "773153695"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 773000000,
+      "source_line": 2727,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00597085",
+      "field_values": {
+        "uprc": "773000000"
+      },
+      "dminsttNm": "통일부 국립평화통일민주교육원",
+      "product": "교육지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 773000000,
+      "source_line": 8198,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "773000000"
+      },
+      "dminsttNm": "농업회사법인온우리주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 771154280,
+      "source_line": 5507,
+      "shard_file": "g2b_evidence_50row_shard_111.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "771154280"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 769000000,
+      "source_line": 2774,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00606873",
+      "field_values": {
+        "uprc": "769000000"
+      },
+      "dminsttNm": "식품의약품안전처 식품의약품안전평가원",
+      "product": "기타연구조사서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 762543460,
+      "source_line": 5444,
+      "shard_file": "g2b_evidence_50row_shard_109.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "762543460"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 756950170,
+      "source_line": 3172,
+      "shard_file": "g2b_evidence_50row_shard_064.json",
+      "bidNtceNo": "R26BK01434017",
+      "field_values": {
+        "asignBdgtAmt": "756950170"
+      },
+      "dminsttNm": "서울교통공사",
+      "product": "전동차용리액터",
+      "operation": "getBidPblancListInfoThngPPSSrch"
+    },
+    {
+      "amount": 742433210,
+      "source_line": 5564,
+      "shard_file": "g2b_evidence_50row_shard_112.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "bdgtAmt": "742433210"
+      },
+      "dminsttNm": null,
+      "product": null,
+      "operation": "getPrcrmntReqInfoListThng"
+    },
+    {
+      "amount": 741540000,
+      "source_line": 2648,
+      "shard_file": "g2b_evidence_50row_shard_053.json",
+      "bidNtceNo": "R26BK01434234",
+      "field_values": {
+        "asignBdgtAmt": "741540000"
+      },
+      "dminsttNm": "충청북도 단양군",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 723986680,
+      "source_line": 8190,
+      "shard_file": "g2b_evidence_50row_shard_164.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "723986680"
+      },
+      "dminsttNm": "경수고속도로 주식회사",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    },
+    {
+      "amount": 723051080,
+      "source_line": 4769,
+      "shard_file": "g2b_evidence_50row_shard_096.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "723051080"
+      },
+      "dminsttNm": null,
+      "product": "남수가압장 수배전반 구매설치",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 722000000,
+      "source_line": 2662,
+      "shard_file": "g2b_evidence_50row_shard_054.json",
+      "bidNtceNo": "R26BK01434228",
+      "field_values": {
+        "asignBdgtAmt": "722000000"
+      },
+      "dminsttNm": "서울특별시",
+      "product": null,
+      "operation": "getBidPblancListInfoServcPPSSrch"
+    },
+    {
+      "amount": 715940000,
+      "source_line": 2780,
+      "shard_file": "g2b_evidence_50row_shard_056.json",
+      "bidNtceNo": "R25BK00607228",
+      "field_values": {
+        "uprc": "715940000"
+      },
+      "dminsttNm": "과학기술정보통신부 우정사업본부 충청지방우정청",
+      "product": "손해보험",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 710000000,
+      "source_line": 2738,
+      "shard_file": "g2b_evidence_50row_shard_055.json",
+      "bidNtceNo": "R25BK00601327",
+      "field_values": {
+        "uprc": "710000000"
+      },
+      "dminsttNm": "외교부",
+      "product": "기타사업지원서비스",
+      "operation": "getBidPblancListInfoServcPurchsObjPrdct"
+    },
+    {
+      "amount": 704060160,
+      "source_line": 4737,
+      "shard_file": "g2b_evidence_50row_shard_095.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "asignBdgtAmt": "704060160"
+      },
+      "dminsttNm": null,
+      "product": "건식실리콘식각장치 구매",
+      "operation": "getPublicPrcureThngInfoThng"
+    },
+    {
+      "amount": 702349000,
+      "source_line": 8089,
+      "shard_file": "g2b_evidence_50row_shard_162.json",
+      "bidNtceNo": null,
+      "field_values": {
+        "sucsfbidAmt": "702349000"
+      },
+      "dminsttNm": "주식회사 신세계야구단",
+      "product": null,
+      "operation": "getPrvtScsbidListSttusPPSSrch"
+    }
+  ],
+  "amount_row_count": 2652
+}

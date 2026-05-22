@@ -1,0 +1,1894 @@
+{
+  "generated_at": "2026-05-22",
+  "source": "g2b_evidence_50row_shard_001..201.json",
+  "row_count": 10001,
+  "shard_count": 201,
+  "purpose": "OpenCrab search/discovery index; canonical evidence rows remain in g2b_evidence_50row_shard_*.json",
+  "index_type": "operations",
+  "services": [
+    {
+      "value": "backfill_bid_public_info_core",
+      "count": 3600
+    },
+    {
+      "value": "backfill_scsbid_info",
+      "count": 1200
+    },
+    {
+      "value": "backfill_price_info",
+      "count": 750
+    },
+    {
+      "value": "backfill_prvt_bid_ntce",
+      "count": 750
+    },
+    {
+      "value": "backfill_cntrct_info",
+      "count": 600
+    },
+    {
+      "value": "backfill_prvt_scsbid_info",
+      "count": 600
+    },
+    {
+      "value": "backfill_cntrct_procss_intg_open",
+      "count": 469
+    },
+    {
+      "value": "backfill_order_plan_sttus",
+      "count": 450
+    },
+    {
+      "value": "backfill_thng_list_info",
+      "count": 440
+    },
+    {
+      "value": "backfill_prvt_cntrct_info",
+      "count": 391
+    },
+    {
+      "value": "backfill_hrcsp_ssstndrd_info",
+      "count": 150
+    },
+    {
+      "value": "backfill_indstryty_base_lawrglt_info",
+      "count": 150
+    },
+    {
+      "value": "backfill_prcrmnt_req_info",
+      "count": 150
+    },
+    {
+      "value": "backfill_prdct_mng_info",
+      "count": 150
+    },
+    {
+      "value": "backfill_shopping_mall_prdct_info",
+      "count": 150
+    }
+  ],
+  "operations": [
+    {
+      "value": "getBidPblancListBidPrceCalclAInfo",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListEvaluationIndstrytyMfrcInfo",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoChgHstryCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoChgHstryThng",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoCnstwkBsisAmount",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoCnstwkPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoEorderAtchFileInfo",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoEtc",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoEtcPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoFrgcpt",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoFrgcptPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoFrgcptPurchsObjPrdct",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoLicenseLimit",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoPrtcptPsblRgn",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoServc",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoServcBsisAmount",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoServcPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoServcPurchsObjPrdct",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoThng",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoThngBsisAmount",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoThngPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListInfoThngPurchsObjPrdct",
+      "count": 150
+    },
+    {
+      "value": "getBidPblancListPPIFnlRfpIssAtchFileInfo",
+      "count": 150
+    },
+    {
+      "value": "getCntrctInfoListCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getCntrctInfoListFrgcpt",
+      "count": 150
+    },
+    {
+      "value": "getCntrctInfoListServc",
+      "count": 150
+    },
+    {
+      "value": "getCntrctInfoListThng",
+      "count": 150
+    },
+    {
+      "value": "getCntrctProcssIntgOpenCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getCntrctProcssIntgOpenServc",
+      "count": 150
+    },
+    {
+      "value": "getCntrctProcssIntgOpenThng",
+      "count": 150
+    },
+    {
+      "value": "getPublicPrcureThngInfoThng",
+      "count": 150
+    },
+    {
+      "value": "getIndstrytyBaseLawrgltInfoList",
+      "count": 150
+    },
+    {
+      "value": "getOrderPlanSttusListCnstwkPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getOrderPlanSttusListServcPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getOrderPlanSttusListThngPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getPrcrmntReqInfoListThng",
+      "count": 150
+    },
+    {
+      "value": "getPrdctClsfcNoUslfsvc",
+      "count": 150
+    },
+    {
+      "value": "getPriceInfoListFcltyCmmnMtrilBildng",
+      "count": 150
+    },
+    {
+      "value": "getPriceInfoListFcltyCmmnMtrilElctyIrmc",
+      "count": 150
+    },
+    {
+      "value": "getPriceInfoListFcltyCmmnMtrilEngrk",
+      "count": 150
+    },
+    {
+      "value": "getPriceInfoListFcltyCmmnMtrilMchnEqp",
+      "count": 150
+    },
+    {
+      "value": "getPriceInfoListMrktCnstrctPcBildng",
+      "count": 150
+    },
+    {
+      "value": "getPrvtBidPblancListInfoCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getPrvtBidPblancListInfoLicenseLimit",
+      "count": 150
+    },
+    {
+      "value": "getPrvtBidPblancListInfoPrtcptPsblRgn",
+      "count": 150
+    },
+    {
+      "value": "getPrvtBidPblancListInfoServc",
+      "count": 150
+    },
+    {
+      "value": "getPrvtBidPblancListInfoThng",
+      "count": 150
+    },
+    {
+      "value": "getPrvtCntrctInfoList",
+      "count": 150
+    },
+    {
+      "value": "getPrvtCntrctInfoListChgHstry",
+      "count": 150
+    },
+    {
+      "value": "getPrvtOpengResultListInfo",
+      "count": 150
+    },
+    {
+      "value": "getPrvtOpengResultListInfoPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getPrvtScsbidListSttus",
+      "count": 150
+    },
+    {
+      "value": "getPrvtScsbidListSttusPPSSrch",
+      "count": 150
+    },
+    {
+      "value": "getOpengResultListInfoCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getOpengResultListInfoFrgcpt",
+      "count": 150
+    },
+    {
+      "value": "getOpengResultListInfoServc",
+      "count": 150
+    },
+    {
+      "value": "getOpengResultListInfoThng",
+      "count": 150
+    },
+    {
+      "value": "getScsbidListSttusCnstwk",
+      "count": 150
+    },
+    {
+      "value": "getScsbidListSttusFrgcpt",
+      "count": 150
+    },
+    {
+      "value": "getScsbidListSttusServc",
+      "count": 150
+    },
+    {
+      "value": "getScsbidListSttusThng",
+      "count": 150
+    },
+    {
+      "value": "getMASCntrctPrdctInfoList",
+      "count": 150
+    },
+    {
+      "value": "getPrdctClsfcNoUnit10Info",
+      "count": 150
+    },
+    {
+      "value": "getPrdctClsfcNoUnit4Info",
+      "count": 150
+    },
+    {
+      "value": "getPrdctClsfcNoUnit6Info",
+      "count": 140
+    },
+    {
+      "value": "getPrvtCntrctInfoListDltHstry",
+      "count": 91
+    },
+    {
+      "value": "getCntrctProcssIntgOpenFrgcpt",
+      "count": 19
+    }
+  ],
+  "field_counts": [
+    {
+      "value": "service",
+      "count": 9659
+    },
+    {
+      "value": "bidNtceOrd",
+      "count": 6278
+    },
+    {
+      "value": "bidNtceNm",
+      "count": 3878
+    },
+    {
+      "value": "dminsttNm",
+      "count": 3750
+    },
+    {
+      "value": "bidNtceNo",
+      "count": 3482
+    },
+    {
+      "value": "bsnsDivNm",
+      "count": 3450
+    },
+    {
+      "value": "dminsttCd",
+      "count": 3450
+    },
+    {
+      "value": "rgstDt",
+      "count": 2787
+    },
+    {
+      "value": "ntceInsttNm",
+      "count": 2522
+    },
+    {
+      "value": "cntrctCnclsMthdNm",
+      "count": 2521
+    },
+    {
+      "value": "crdtrNm",
+      "count": 2100
+    },
+    {
+      "value": "rbidNo",
+      "count": 2092
+    },
+    {
+      "value": "ntceInsttCd",
+      "count": 2082
+    },
+    {
+      "value": "bidMethdNm",
+      "count": 1950
+    },
+    {
+      "value": "prdctClsfcNoNm",
+      "count": 1940
+    },
+    {
+      "value": "prtcptCnum",
+      "count": 1800
+    },
+    {
+      "value": "bidNtceDt",
+      "count": 1778
+    },
+    {
+      "value": "ntceSpecDocUrl1",
+      "count": 1756
+    },
+    {
+      "value": "opengDt",
+      "count": 1674
+    },
+    {
+      "value": "nticeDt",
+      "count": 1592
+    },
+    {
+      "value": "bidNtceDtlUrl",
+      "count": 1500
+    },
+    {
+      "value": "ntceKindNm",
+      "count": 1466
+    },
+    {
+      "value": "bidClseDt",
+      "count": 1454
+    },
+    {
+      "value": "bidBeginDt",
+      "count": 1443
+    },
+    {
+      "value": "dtilPrdctClsfcNoNm",
+      "count": 1348
+    },
+    {
+      "value": "unit",
+      "count": 1344
+    },
+    {
+      "value": "prdctClsfcNo",
+      "count": 1343
+    },
+    {
+      "value": "dtilPrdctClsfcNo",
+      "count": 1254
+    },
+    {
+      "value": "ntceSpecDocUrl2",
+      "count": 1250
+    },
+    {
+      "value": "ntceInsttOfclNm",
+      "count": 1200
+    },
+    {
+      "value": "cmmnSpldmdAgrmntRcptdocMethd",
+      "count": 1200
+    },
+    {
+      "value": "cmmnSpldmdCorpRgnLmtYn",
+      "count": 1200
+    },
+    {
+      "value": "cmmnSpldmdMethdNm",
+      "count": 1200
+    },
+    {
+      "value": "dsgntCmptYn",
+      "count": 1200
+    },
+    {
+      "value": "exctvNm",
+      "count": 1200
+    },
+    {
+      "value": "inptDt",
+      "count": 1200
+    },
+    {
+      "value": "bidNtceUrl",
+      "count": 1200
+    },
+    {
+      "value": "dlvryCndtnNm",
+      "count": 1200
+    },
+    {
+      "value": "bsnsDivCd",
+      "count": 1200
+    },
+    {
+      "value": "intrbidYn",
+      "count": 1194
+    },
+    {
+      "value": "ntceInsttOfclTelNo",
+      "count": 1162
+    },
+    {
+      "value": "bidQlfctRgstDt",
+      "count": 1098
+    },
+    {
+      "value": "cntrctMthdNm",
+      "count": 1048
+    },
+    {
+      "value": "asignBdgtAmt",
+      "count": 994
+    },
+    {
+      "value": "cntrctRefNo",
+      "count": 991
+    },
+    {
+      "value": "untyCntrctNo",
+      "count": 988
+    },
+    {
+      "value": "VAT",
+      "count": 944
+    },
+    {
+      "value": "ofclNm",
+      "count": 916
+    },
+    {
+      "value": "ntceInsttOfclEmailAdrs",
+      "count": 900
+    },
+    {
+      "value": "cmmnCntrctYn",
+      "count": 900
+    },
+    {
+      "value": "cntrctDtlInfoUrl",
+      "count": 900
+    },
+    {
+      "value": "cntrctInfoUrl",
+      "count": 900
+    },
+    {
+      "value": "cntrctInsttCd",
+      "count": 900
+    },
+    {
+      "value": "cntrctInsttNm",
+      "count": 900
+    },
+    {
+      "value": "corpList",
+      "count": 900
+    },
+    {
+      "value": "progrsDivCdNm",
+      "count": 900
+    },
+    {
+      "value": "bidwinnrNm",
+      "count": 900
+    },
+    {
+      "value": "bidwinnrTelNo",
+      "count": 900
+    },
+    {
+      "value": "bidwinnrAdrs",
+      "count": 900
+    },
+    {
+      "value": "bidwinnrCeoNm",
+      "count": 900
+    },
+    {
+      "value": "rlOpengDt",
+      "count": 900
+    },
+    {
+      "value": "thtmCntrctAmt",
+      "count": 883
+    },
+    {
+      "value": "totCntrctAmt",
+      "count": 875
+    },
+    {
+      "value": "cntrctInsttChrgDeptNm",
+      "count": 874
+    },
+    {
+      "value": "orderInsttNm",
+      "count": 842
+    },
+    {
+      "value": "cntrctInsttOfclTelNo",
+      "count": 798
+    },
+    {
+      "value": "grntymnyRate",
+      "count": 770
+    },
+    {
+      "value": "chgDt",
+      "count": 768
+    },
+    {
+      "value": "drwtPrdprcNum",
+      "count": 757
+    },
+    {
+      "value": "cntrctNm",
+      "count": 750
+    },
+    {
+      "value": "invstOfclNm",
+      "count": 750
+    },
+    {
+      "value": "prdctIdntNo",
+      "count": 750
+    },
+    {
+      "value": "invstDeptNm",
+      "count": 750
+    },
+    {
+      "value": "krnPrdctNm",
+      "count": 750
+    },
+    {
+      "value": "prce",
+      "count": 750
+    },
+    {
+      "value": "prceDiv",
+      "count": 750
+    },
+    {
+      "value": "prceNticeNo",
+      "count": 750
+    },
+    {
+      "value": "vatYnNm",
+      "count": 750
+    },
+    {
+      "value": "sucsfbidAmt",
+      "count": 750
+    },
+    {
+      "value": "cntrctInsttOfclNm",
+      "count": 743
+    },
+    {
+      "value": "bidPrtcptFee",
+      "count": 732
+    },
+    {
+      "value": "cntrctDate",
+      "count": 729
+    },
+    {
+      "value": "opengPlce",
+      "count": 689
+    },
+    {
+      "value": "payDivNm",
+      "count": 684
+    },
+    {
+      "value": "refNo",
+      "count": 631
+    },
+    {
+      "value": "orderPlanUntyNo",
+      "count": 619
+    },
+    {
+      "value": "cntrctPrd",
+      "count": 613
+    },
+    {
+      "value": "ntceNticeDt",
+      "count": 600
+    },
+    {
+      "value": "arsltCmptYn",
+      "count": 600
+    },
+    {
+      "value": "lmtSno",
+      "count": 600
+    },
+    {
+      "value": "cntrctInsttJrsdctnDivNm",
+      "count": 600
+    },
+    {
+      "value": "dminsttList",
+      "count": 600
+    },
+    {
+      "value": "lngtrmCtnuDivNm",
+      "count": 600
+    },
+    {
+      "value": "orderInsttCd",
+      "count": 600
+    },
+    {
+      "value": "rsrvtnPrceFileExistnceYn",
+      "count": 600
+    },
+    {
+      "value": "bidwinnrBizno",
+      "count": 600
+    },
+    {
+      "value": "ntceDivCd",
+      "count": 600
+    },
+    {
+      "value": "fnlSucsfDate",
+      "count": 599
+    },
+    {
+      "value": "bidPrtcptLmtYn",
+      "count": 598
+    },
+    {
+      "value": "indstrytyLmtYn",
+      "count": 598
+    },
+    {
+      "value": "baseLawNm",
+      "count": 592
+    },
+    {
+      "value": "gnrlexpns",
+      "count": 562
+    },
+    {
+      "value": "lbrcst",
+      "count": 562
+    },
+    {
+      "value": "mtrlcst",
+      "count": 562
+    },
+    {
+      "value": "baseDtls",
+      "count": 552
+    },
+    {
+      "value": "dcsnCntrctNo",
+      "count": 541
+    },
+    {
+      "value": "cntrctCnclsDate",
+      "count": 541
+    },
+    {
+      "value": "dlvrDaynum",
+      "count": 527
+    },
+    {
+      "value": "ofclTelNo",
+      "count": 502
+    },
+    {
+      "value": "splyJrsdctRgnNm",
+      "count": 488
+    },
+    {
+      "value": "sucsfbidMthdNm",
+      "count": 470
+    },
+    {
+      "value": "prdctSno",
+      "count": 456
+    },
+    {
+      "value": "mrfnHealthInsrprm",
+      "count": 450
+    },
+    {
+      "value": "npnInsrprm",
+      "count": 450
+    },
+    {
+      "value": "odsnLngtrmrcprInsrprm",
+      "count": 450
+    },
+    {
+      "value": "rtrfundNon",
+      "count": 450
+    },
+    {
+      "value": "sftyChckMngcst",
+      "count": 450
+    },
+    {
+      "value": "sftyMngcst",
+      "count": 450
+    },
+    {
+      "value": "ciblAplYn",
+      "count": 450
+    },
+    {
+      "value": "bdgtAmt",
+      "count": 450
+    },
+    {
+      "value": "bssamtOpenDt",
+      "count": 450
+    },
+    {
+      "value": "rsrvtnPrceRngBgnRate",
+      "count": 450
+    },
+    {
+      "value": "rsrvtnPrceRngEndRate",
+      "count": 450
+    },
+    {
+      "value": "usefulAmt",
+      "count": 450
+    },
+    {
+      "value": "qty",
+      "count": 450
+    },
+    {
+      "value": "dfrcmpnstRt",
+      "count": 450
+    },
+    {
+      "value": "telNo",
+      "count": 450
+    },
+    {
+      "value": "agrmntYn",
+      "count": 450
+    },
+    {
+      "value": "bizNm",
+      "count": 450
+    },
+    {
+      "value": "bsnsTyNm",
+      "count": 450
+    },
+    {
+      "value": "deptNm",
+      "count": 450
+    },
+    {
+      "value": "jrsdctnDivCd",
+      "count": 450
+    },
+    {
+      "value": "jrsdctnDivNm",
+      "count": 450
+    },
+    {
+      "value": "ntceNticeYn",
+      "count": 450
+    },
+    {
+      "value": "orderContrctAmt",
+      "count": 450
+    },
+    {
+      "value": "orderEtcAmt",
+      "count": 450
+    },
+    {
+      "value": "orderGovsplyMtrcst",
+      "count": 450
+    },
+    {
+      "value": "orderMnth",
+      "count": 450
+    },
+    {
+      "value": "orderNtntrsAuxAmt",
+      "count": 450
+    },
+    {
+      "value": "orderPlanSno",
+      "count": 450
+    },
+    {
+      "value": "orderThtmContrctAmt",
+      "count": 450
+    },
+    {
+      "value": "orderYear",
+      "count": 450
+    },
+    {
+      "value": "prcrmntMethd",
+      "count": 450
+    },
+    {
+      "value": "sumOrderAmt",
+      "count": 450
+    },
+    {
+      "value": "sumOrderDolAmt",
+      "count": 450
+    },
+    {
+      "value": "ofclEmail",
+      "count": 450
+    },
+    {
+      "value": "bidNtceClsfc",
+      "count": 450
+    },
+    {
+      "value": "bidQlfctNm",
+      "count": 450
+    },
+    {
+      "value": "ntceDivNm",
+      "count": 450
+    },
+    {
+      "value": "ntceNm",
+      "count": 450
+    },
+    {
+      "value": "ntceSpecDocNm1",
+      "count": 450
+    },
+    {
+      "value": "totlmngInsttNm",
+      "count": 444
+    },
+    {
+      "value": "bssamt",
+      "count": 442
+    },
+    {
+      "value": "chgDate",
+      "count": 440
+    },
+    {
+      "value": "useYn",
+      "count": 440
+    },
+    {
+      "value": "sucsfbidRate",
+      "count": 414
+    },
+    {
+      "value": "rbidDivNm",
+      "count": 379
+    },
+    {
+      "value": "rgnLmtDivNm",
+      "count": 361
+    },
+    {
+      "value": "ntceNo",
+      "count": 360
+    },
+    {
+      "value": "infoBizYn",
+      "count": 352
+    },
+    {
+      "value": "distbStep",
+      "count": 338
+    },
+    {
+      "value": "opengCorpInfo",
+      "count": 322
+    },
+    {
+      "value": "pubPrcrmntClsfcNm",
+      "count": 321
+    },
+    {
+      "value": "ntceSpecDocNm2",
+      "count": 320
+    },
+    {
+      "value": "refAmtUseYn",
+      "count": 316
+    },
+    {
+      "value": "pubPrcrmntClsfcNo",
+      "count": 314
+    },
+    {
+      "value": "bidGrntymnyPaymntYn",
+      "count": 311
+    },
+    {
+      "value": "pubPrcrmntLrgClsfcNm",
+      "count": 309
+    },
+    {
+      "value": "vatInclsnYnNm",
+      "count": 307
+    },
+    {
+      "value": "pubPrcrmntMidClsfcNm",
+      "count": 304
+    },
+    {
+      "value": "qltyMngcst",
+      "count": 300
+    },
+    {
+      "value": "qltyMngcstAObjYn",
+      "count": 300
+    },
+    {
+      "value": "smkpAmtYn",
+      "count": 300
+    },
+    {
+      "value": "chgDataDivNm",
+      "count": 300
+    },
+    {
+      "value": "chgItemNm",
+      "count": 300
+    },
+    {
+      "value": "cnstrtsiteRgnNm",
+      "count": 300
+    },
+    {
+      "value": "aplBssCntnts",
+      "count": 300
+    },
+    {
+      "value": "cmmnSpldmdCnum",
+      "count": 300
+    },
+    {
+      "value": "dtlsBidYn",
+      "count": 300
+    },
+    {
+      "value": "indstrytyMfrcFldEvlYn",
+      "count": 300
+    },
+    {
+      "value": "envCnsrvcst",
+      "count": 300
+    },
+    {
+      "value": "evlBssAmt",
+      "count": 300
+    },
+    {
+      "value": "scontrctPayprcePayGrntyFee",
+      "count": 300
+    },
+    {
+      "value": "atchSno",
+      "count": 300
+    },
+    {
+      "value": "bidGrntymnyPaymntObjYn",
+      "count": 300
+    },
+    {
+      "value": "lcnsLmtNm",
+      "count": 300
+    },
+    {
+      "value": "lmtGrpNo",
+      "count": 300
+    },
+    {
+      "value": "prtcptPsblRgnNm",
+      "count": 300
+    },
+    {
+      "value": "uprc",
+      "count": 300
+    },
+    {
+      "value": "bsnsTyCd",
+      "count": 300
+    },
+    {
+      "value": "bfchgVal",
+      "count": 298
+    },
+    {
+      "value": "ntceSpecFileNm1",
+      "count": 296
+    },
+    {
+      "value": "mtltyAdvcPsblYn",
+      "count": 294
+    },
+    {
+      "value": "cmmnSpldmdYn",
+      "count": 293
+    },
+    {
+      "value": "prdctClsfcNoEngNm",
+      "count": 290
+    },
+    {
+      "value": "prdctClsfcNoNmDscrpt",
+      "count": 290
+    },
+    {
+      "value": "afchgVal",
+      "count": 289
+    },
+    {
+      "value": "mnfctYn",
+      "count": 286
+    },
+    {
+      "value": "ntceSpecDocUrl3",
+      "count": 283
+    },
+    {
+      "value": "contrctrcnstrtnGovsplyMtrlAmt",
+      "count": 267
+    },
+    {
+      "value": "govcnstrtnGovsplyMtrlAmt",
+      "count": 267
+    },
+    {
+      "value": "govsplyAmt",
+      "count": 267
+    },
+    {
+      "value": "dlvrPlce",
+      "count": 267
+    },
+    {
+      "value": "prearngPrceDcsnMthdNm",
+      "count": 254
+    },
+    {
+      "value": "presmptPrce",
+      "count": 253
+    },
+    {
+      "value": "prdctSpecNm",
+      "count": 253
+    },
+    {
+      "value": "bidWgrnteeRcptClseDt",
+      "count": 238
+    },
+    {
+      "value": "prdctDtlList",
+      "count": 220
+    },
+    {
+      "value": "rbidPermsnYn",
+      "count": 211
+    },
+    {
+      "value": "dlvrTmlmtDt",
+      "count": 202
+    },
+    {
+      "value": "reqNo",
+      "count": 198
+    },
+    {
+      "value": "mtltyAdvcPsblYnCnstwkNm",
+      "count": 193
+    },
+    {
+      "value": "opninRgstClseDt",
+      "count": 189
+    },
+    {
+      "value": "bidQlfctRgstCntnts",
+      "count": 187
+    },
+    {
+      "value": "rgstTyNm",
+      "count": 178
+    },
+    {
+      "value": "bidPrceCalclAOpenDt",
+      "count": 150
+    },
+    {
+      "value": "bidwinrSlctnBssCd",
+      "count": 150
+    },
+    {
+      "value": "cnstrtWkaraMtltyAdvcPsblYn",
+      "count": 150
+    },
+    {
+      "value": "cnsttyTyNm",
+      "count": 150
+    },
+    {
+      "value": "indstrytyMfrcFldNm",
+      "count": 150
+    },
+    {
+      "value": "bidPrceCalclAYn",
+      "count": 150
+    },
+    {
+      "value": "eorderAtchFileUrl",
+      "count": 150
+    },
+    {
+      "value": "eorderDocDivNm",
+      "count": 150
+    },
+    {
+      "value": "asignAmt",
+      "count": 150
+    },
+    {
+      "value": "asignAmtCrncy",
+      "count": 150
+    },
+    {
+      "value": "hskNo",
+      "count": 150
+    },
+    {
+      "value": "atchDocDivNm",
+      "count": 150
+    },
+    {
+      "value": "atchFileNm",
+      "count": 150
+    },
+    {
+      "value": "issDt",
+      "count": 150
+    },
+    {
+      "value": "cbgnDate",
+      "count": 150
+    },
+    {
+      "value": "cnstwkNm",
+      "count": 150
+    },
+    {
+      "value": "thtmCcmpltDate",
+      "count": 150
+    },
+    {
+      "value": "thtmCntrctAmtCrncy",
+      "count": 150
+    },
+    {
+      "value": "totCntrctAmtCrncy",
+      "count": 150
+    },
+    {
+      "value": "rlDminsttNm",
+      "count": 150
+    },
+    {
+      "value": "rcptDt",
+      "count": 150
+    },
+    {
+      "value": "swBizObjYn",
+      "count": 150
+    },
+    {
+      "value": "baseLawordNm",
+      "count": 150
+    },
+    {
+      "value": "indstrytyCd",
+      "count": 150
+    },
+    {
+      "value": "indstrytyChgDt",
+      "count": 150
+    },
+    {
+      "value": "indstrytyClsfcCd",
+      "count": 150
+    },
+    {
+      "value": "indstrytyClsfcNm",
+      "count": 150
+    },
+    {
+      "value": "indstrytyNm",
+      "count": 150
+    },
+    {
+      "value": "indstrytyRgstDt",
+      "count": 150
+    },
+    {
+      "value": "indstrytyUseYn",
+      "count": 150
+    },
+    {
+      "value": "cnsttyDivNm",
+      "count": 150
+    },
+    {
+      "value": "specCntnts",
+      "count": 150
+    },
+    {
+      "value": "usgCntnts",
+      "count": 150
+    },
+    {
+      "value": "prcrmntReqOfclNm",
+      "count": 150
+    },
+    {
+      "value": "rprsntPrdctClsfcNoNm",
+      "count": 150
+    },
+    {
+      "value": "cntrctCnclsStleNm",
+      "count": 150
+    },
+    {
+      "value": "leaseYn",
+      "count": 150
+    },
+    {
+      "value": "prcrmntReqNm",
+      "count": 150
+    },
+    {
+      "value": "prcrmntReqOfclEmpNo",
+      "count": 150
+    },
+    {
+      "value": "rprsntAmt",
+      "count": 150
+    },
+    {
+      "value": "rprsntDlvrDaynum",
+      "count": 150
+    },
+    {
+      "value": "rprsntDlvrPlce",
+      "count": 150
+    },
+    {
+      "value": "rprsntQty",
+      "count": 150
+    },
+    {
+      "value": "rprsntSpecDtlsCntnts",
+      "count": 150
+    },
+    {
+      "value": "rprsntUprc",
+      "count": 150
+    },
+    {
+      "value": "endDate",
+      "count": 150
+    },
+    {
+      "value": "rgstDate",
+      "count": 150
+    },
+    {
+      "value": "uslfsvc",
+      "count": 150
+    },
+    {
+      "value": "cntrctDeptTelNo",
+      "count": 150
+    },
+    {
+      "value": "cntrctOfclEmail",
+      "count": 150
+    },
+    {
+      "value": "cntrctOfclNm",
+      "count": 150
+    },
+    {
+      "value": "prdctSplyRgnNm",
+      "count": 150
+    },
+    {
+      "value": "shopngCntrctNo",
+      "count": 150
+    },
+    {
+      "value": "avrgDlvyTime",
+      "count": 150
+    },
+    {
+      "value": "bndeFlawGrntyPrdctYn",
+      "count": 150
+    },
+    {
+      "value": "cntrctBgnDate",
+      "count": 150
+    },
+    {
+      "value": "cntrctCorpNo",
+      "count": 150
+    },
+    {
+      "value": "cntrctDeptNm",
+      "count": 150
+    },
+    {
+      "value": "cntrctEndDate",
+      "count": 150
+    },
+    {
+      "value": "cntrctPrceAmt",
+      "count": 150
+    },
+    {
+      "value": "dtilPrdctClsfcNoEngNm",
+      "count": 150
+    },
+    {
+      "value": "cnstrtWkrarDivCd",
+      "count": 149
+    },
+    {
+      "value": "evlRt",
+      "count": 149
+    },
+    {
+      "value": "dtilPrdctClsfcNoNmDscrpt",
+      "count": 149
+    },
+    {
+      "value": "bidPrceEvlRt",
+      "count": 148
+    },
+    {
+      "value": "prcesChangeAplBssCd",
+      "count": 148
+    },
+    {
+      "value": "prcesChangeAplBssNm",
+      "count": 148
+    },
+    {
+      "value": "eorderAtchFileNm",
+      "count": 146
+    },
+    {
+      "value": "atchFileUrl",
+      "count": 144
+    },
+    {
+      "value": "ntceSpecDocNm3",
+      "count": 144
+    },
+    {
+      "value": "tmpNm",
+      "count": 143
+    },
+    {
+      "value": "ntceSpecFileNm2",
+      "count": 143
+    },
+    {
+      "value": "untyNtceNo",
+      "count": 136
+    },
+    {
+      "value": "servcDtlList",
+      "count": 134
+    },
+    {
+      "value": "dfctGrntymnyRate",
+      "count": 133
+    },
+    {
+      "value": "etcCntnts",
+      "count": 131
+    },
+    {
+      "value": "ttalCcmpltDate",
+      "count": 129
+    },
+    {
+      "value": "cmmnSpldmdAgrmntClseDt",
+      "count": 128
+    },
+    {
+      "value": "cmmnSpldmdMethdCd",
+      "count": 128
+    },
+    {
+      "value": "bidMthdNm",
+      "count": 128
+    },
+    {
+      "value": "chgNtceRsn",
+      "count": 122
+    },
+    {
+      "value": "sptDscrptDt",
+      "count": 121
+    },
+    {
+      "value": "sptDscrptPlce",
+      "count": 119
+    },
+    {
+      "value": "bidNtceNoList",
+      "count": 113
+    },
+    {
+      "value": "specDocFileUrl1",
+      "count": 113
+    },
+    {
+      "value": "prdctClsfcLmtYn",
+      "count": 102
+    },
+    {
+      "value": "cnstwkRgnNm",
+      "count": 101
+    },
+    {
+      "value": "orderPlanNo",
+      "count": 98
+    },
+    {
+      "value": "rprsntUnit",
+      "count": 96
+    },
+    {
+      "value": "orderBizNm",
+      "count": 93
+    },
+    {
+      "value": "orderYm",
+      "count": 91
+    },
+    {
+      "value": "prcrmntMethdNm",
+      "count": 91
+    },
+    {
+      "value": "chgDivNm",
+      "count": 91
+    },
+    {
+      "value": "dltDt",
+      "count": 91
+    },
+    {
+      "value": "dminsttOfclEmailAdrs",
+      "count": 86
+    },
+    {
+      "value": "permsnIndstrytyList",
+      "count": 77
+    },
+    {
+      "value": "cnstwkDtlList",
+      "count": 76
+    },
+    {
+      "value": "bidwinrInfoList",
+      "count": 74
+    },
+    {
+      "value": "cntrctInfoList",
+      "count": 72
+    },
+    {
+      "value": "ntceSpecDocNm4",
+      "count": 68
+    },
+    {
+      "value": "ntceSpecDocUrl4",
+      "count": 65
+    },
+    {
+      "value": "prdctQty",
+      "count": 62
+    },
+    {
+      "value": "rprsntDedtDate",
+      "count": 60
+    },
+    {
+      "value": "mainCnsttyCnstwkPrearngAmt",
+      "count": 55
+    },
+    {
+      "value": "mainCnsttyNm",
+      "count": 55
+    },
+    {
+      "value": "mainCnsttyPresmptPrce",
+      "count": 54
+    },
+    {
+      "value": "prdctUnit",
+      "count": 52
+    },
+    {
+      "value": "rbidOpengDt",
+      "count": 51
+    },
+    {
+      "value": "indstrytyEvlRt",
+      "count": 50
+    },
+    {
+      "value": "rmrkCntnts",
+      "count": 49
+    },
+    {
+      "value": "prdctUprc",
+      "count": 49
+    },
+    {
+      "value": "specDocFileUrl2",
+      "count": 48
+    },
+    {
+      "value": "presmptAmt",
+      "count": 44
+    },
+    {
+      "value": "assmblCntryMainCmpnt1Cntnts",
+      "count": 43
+    },
+    {
+      "value": "assmblCntryMainCmpnt2Cntnts",
+      "count": 43
+    },
+    {
+      "value": "ppswGnrlSrvceYn",
+      "count": 42
+    },
+    {
+      "value": "bssAmtPurcnstcst",
+      "count": 39
+    },
+    {
+      "value": "prcrmntReqNo",
+      "count": 39
+    },
+    {
+      "value": "bfSpecRgstNo",
+      "count": 39
+    },
+    {
+      "value": "bidDminsttNm",
+      "count": 39
+    },
+    {
+      "value": "bfSpecBizNm",
+      "count": 39
+    },
+    {
+      "value": "bfSpecNtceInsttNm",
+      "count": 39
+    },
+    {
+      "value": "refAmtDscrpt",
+      "count": 38
+    },
+    {
+      "value": "refAmtOpenYn",
+      "count": 35
+    },
+    {
+      "value": "ntceSpecDocNm5",
+      "count": 32
+    },
+    {
+      "value": "assmblCntryCoreCmpntNm",
+      "count": 31
+    },
+    {
+      "value": "purchsObjPrdctList",
+      "count": 26
+    },
+    {
+      "value": "ntceSpecFileNm3",
+      "count": 25
+    },
+    {
+      "value": "reNtceYn",
+      "count": 23
+    },
+    {
+      "value": "specDocFileUrl3",
+      "count": 23
+    },
+    {
+      "value": "aptCeoAdrs",
+      "count": 17
+    },
+    {
+      "value": "aptCmplNum",
+      "count": 17
+    },
+    {
+      "value": "aptHshldNum",
+      "count": 17
+    },
+    {
+      "value": "aptHsmpNm",
+      "count": 17
+    },
+    {
+      "value": "aptMngcstLevyArea",
+      "count": 17
+    },
+    {
+      "value": "aptTotar",
+      "count": 17
+    },
+    {
+      "value": "cnsttyAccotShreRateList",
+      "count": 16
+    },
+    {
+      "value": "dcmtgOprtnPlce",
+      "count": 14
+    },
+    {
+      "value": "rprsntPrdctidntno",
+      "count": 14
+    },
+    {
+      "value": "ntceSpecDocNm6",
+      "count": 14
+    },
+    {
+      "value": "aptHeatMethdNm",
+      "count": 14
+    },
+    {
+      "value": "ntceSpecDocNm7",
+      "count": 12
+    },
+    {
+      "value": "inclsnLcns",
+      "count": 10
+    },
+    {
+      "value": "dcmtgOprtnDt",
+      "count": 9
+    },
+    {
+      "value": "rgnDutyJntcontrctYn",
+      "count": 9
+    },
+    {
+      "value": "rmrk1",
+      "count": 9
+    },
+    {
+      "value": "rmrk2",
+      "count": 9
+    },
+    {
+      "value": "frstyearUntyCntrctIdntNo",
+      "count": 9
+    },
+    {
+      "value": "indutyVAT",
+      "count": 8
+    },
+    {
+      "value": "arsltApplDocRcptMthdNm",
+      "count": 7
+    },
+    {
+      "value": "aptSubactLrgeNdCmpnintFclty",
+      "count": 7
+    },
+    {
+      "value": "jntcontrctDutyRgnNm1",
+      "count": 6
+    },
+    {
+      "value": "thtmScmpltDate",
+      "count": 6
+    },
+    {
+      "value": "wbgnDate",
+      "count": 6
+    },
+    {
+      "value": "specDocFileUrl4",
+      "count": 6
+    },
+    {
+      "value": "incntvRgnNm1",
+      "count": 5
+    },
+    {
+      "value": "arsltReqstdocRcptDt",
+      "count": 5
+    },
+    {
+      "value": "pqEvalYn",
+      "count": 4
+    },
+    {
+      "value": "nttId",
+      "count": 3
+    },
+    {
+      "value": "ntceSpecDocNm8",
+      "count": 3
+    },
+    {
+      "value": "opengRsltNtcCntnts",
+      "count": 3
+    },
+    {
+      "value": "arsltApplDocRcptDt",
+      "count": 2
+    },
+    {
+      "value": "ntceSpecDocUrl5",
+      "count": 2
+    },
+    {
+      "value": "sucsfbidLwltRate",
+      "count": 2
+    },
+    {
+      "value": "sucsfbidMthdCd",
+      "count": 2
+    },
+    {
+      "value": "refAmt",
+      "count": 2
+    },
+    {
+      "value": "incntvRgnNm2",
+      "count": 1
+    },
+    {
+      "value": "incntvRgnNm3",
+      "count": 1
+    },
+    {
+      "value": "NO",
+      "count": 1
+    },
+    {
+      "value": "specDocFileUrl5",
+      "count": 1
+    },
+    {
+      "value": "aptHmpgUrl",
+      "count": 1
+    },
+    {
+      "value": "ntceSpecDocNm9",
+      "count": 1
+    }
+  ]
+}

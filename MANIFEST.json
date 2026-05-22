@@ -1,11 +1,36 @@
 {
-  "experiment": "flat-root-json-50-rows-per-file",
-  "purpose": "Test whether OpenCrab GitHub ingest indexes much smaller JSON shard files after 500-row shards failed.",
+  "experiment": "flat-root-json-50-rows-per-file-plus-discovery-indexes",
+  "purpose": "Validated OpenCrab GitHub ingest pack for G2B row-level evidence, with discovery indexes and structured local analysis export.",
   "repo_url": "https://github.com/victorhan1981-dotcom/opencrab-g2b-packs",
   "branch": "main",
   "path": ".",
   "shard_size_rows": 50,
   "shard_files": 201,
   "total_items": 10001,
-  "marker_policy": "Exact probe marker strings are present only inside shard JSON files."
+  "marker_policy": "Exact probe marker strings are present only inside shard JSON files, not README/MANIFEST.",
+  "pack_search_observed": {
+    "title": "g2b_r1",
+    "package_id": "ced0dce7-2020-4a19-8beb-356152c97b5e",
+    "category": "github",
+    "visibility": "private"
+  },
+  "index_files": [
+    "indexes/INDEX_amounts_dates.json",
+    "indexes/INDEX_bid_notice_numbers.json",
+    "indexes/INDEX_institution_aliases_seed.json",
+    "indexes/INDEX_institutions.json",
+    "indexes/INDEX_operations.json",
+    "indexes/INDEX_products.json",
+    "indexes/INDEX_suppliers.json"
+  ],
+  "analysis_exports": [
+    "analysis_exports/g2b_rows_selected.csv.gz",
+    "analysis_exports/g2b_rows_selected.sqlite"
+  ],
+  "quality_criteria": "ONTOLOGY_QUALITY_CRITERIA.md",
+  "known_good_queries": [
+    "R26BK01320155 bidNtceNo ntceNticeDt getBidPblancListInfoThngPurchsObjPrdct 전동식와이어로프호이스트 uprc=208753600",
+    "R26BK01362809 bidPrceCalclAOpenDt mrfnHealthInsrprm npnInsrprm getBidPblancListBidPrceCalclAInfo",
+    "g2b_evidence_50row_shard_201 10001 OPENCRAB_JSON_50_SHARD_201"
+  ]
 }

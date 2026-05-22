@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-22",
+  "source": "g2b_evidence_50row_shard_001..201.json",
+  "row_count": 10001,
+  "shard_count": 201,
+  "purpose": "OpenCrab search/discovery index; canonical evidence rows remain in g2b_evidence_50row_shard_*.json",
+  "index_type": "institution_aliases_seed",
+  "note": "Alias dictionary for report/search expansion. Absence from evidence index still means targeted collection is needed.",
+  "aliases": {
+    "한국남부발전": [
+      "한국남부발전",
+      "한국남부발전주식회사",
+      "한국남부발전 주식회사",
+      "한국남부발전(주)",
+      "KOSPO",
+      "Korea Southern Power"
+    ]
+  }
+}
